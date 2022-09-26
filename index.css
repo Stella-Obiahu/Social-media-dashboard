@@ -7,6 +7,9 @@
     --insta: hsl(329, 70%, 58%);
     --YouTube: hsl(348, 97%, 39%);
 }
+.stella{
+    background: var(--Lime-Green);
+}
 .facebook{
     background: var(--Facebook);
 }
