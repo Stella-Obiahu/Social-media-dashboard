@@ -13,6 +13,9 @@
 .facebook{
     background: var(--Facebook);
 }
+.facebook1{
+    justify-items: right;
+}
 .twitter{
     background: var(--Twitter);
 }
