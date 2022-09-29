@@ -6,11 +6,12 @@
     --Instagram:hsl(37, 97%, 70%);
     --insta: hsl(329, 70%, 58%);
     --YouTube: hsl(348, 87%, 31%);
-    --card-bg:hsl(228, 28%, 20%);
-    --top-bg:hsl(232, 19%, 15%);
-    --bg:hsl(230, 17%, 14%);
-    --text:hsl(228, 34%, 66%);
-    --text1:hsl(0, 0%, 100%);
+    --card-bg:hsl(227, 47%, 96%);
+    --top-bg:hsl(225, 100%, 98%);
+    --bg:hsl(0, 0%, 100%);
+    --text:hsl(228, 12%, 44%);
+    --text1:hsl(230, 17%, 14%);
+    --toggle:hsl(230, 22%, 74%);
 }
 body{
     background: var(--bg);
@@ -37,6 +38,9 @@ body{
     background: var(--bg);
     padding-top: 170px;
     padding-bottom: 50px;
+}
+.in{
+    cursor: pointer;
 }
 .card{
     background: var(--card-bg);
