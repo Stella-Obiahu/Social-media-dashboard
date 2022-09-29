@@ -5,17 +5,38 @@
     --Twitter: hsl(203, 89%, 53%);
     --Instagram:hsl(37, 97%, 70%);
     --insta: hsl(329, 70%, 58%);
-    --YouTube: hsl(348, 97%, 39%);
+    --YouTube: hsl(348, 87%, 31%);
+    --card-bg:hsl(228, 28%, 20%);
+    --top-bg:hsl(232, 19%, 15%);
+    --bg:hsl(230, 17%, 14%);
+    --text:hsl(228, 34%, 66%);
+}
+body{
+    background: var(--bg);
 }
 .main1{
-    background-color: rgb(26, 26, 44);
+    background: var(--top-bg);
     width: 100%;
+    position: relative;
+    padding-top: 40px ;
+    padding-bottom: 150px;
+}
+.hi{
+    padding-bottom: 20px;
+}
+.them{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .main2{
-    background-color: rgb(16, 16, 29)
+    background: var(--bg);
+    padding-top: 170px;
+    padding-bottom: 50px;
 }
 .card{
-    background-color: rgba(11, 11, 46, 0.692);
+    background: var(--card-bg);
 }
 .stella{
     background-color: var(--Lime-Green);
@@ -38,13 +59,16 @@
 .you{
     background: var(--YouTube);
 }
-
+.color{
+    color: var(--text);
+}
 .white{
     color: white;
 }
 .tin{
     margin-top: inherit;
     height: 6px;
+    border-radius: 2px;
 }
 @media screen and (max-width: 600px){
     .card{
