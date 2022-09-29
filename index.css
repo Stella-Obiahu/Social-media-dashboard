@@ -7,14 +7,29 @@
     --insta: hsl(329, 70%, 58%);
     --YouTube: hsl(348, 97%, 39%);
 }
+body{
+    background-color: rgb(16, 16, 29)
+}
+.main1{
+    background-color: rgb(26, 26, 44);
+}
+.main2{
+    background-color: rgb(16, 16, 29)
+}
+.card{
+    background-color: rgba(11, 11, 46, 0.692);
+}
 .stella{
     background-color: var(--Lime-Green);
 }
 .facebook{
     background: var(--Facebook);
 }
-.facebook1{
-    justify-items: right;
+.witt{
+    margin-top: 1em;
+}
+.wett{
+    margin-top: 5em;
 }
 .twitter{
     background: var(--Twitter);
@@ -25,9 +40,7 @@
 .you{
     background: var(--YouTube);
 }
-body{
-    background-color: rgb(53, 4, 45);
-}
+
 .white{
     color: white;
 }
