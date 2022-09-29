@@ -7,9 +7,6 @@
     --insta: hsl(329, 70%, 58%);
     --YouTube: hsl(348, 97%, 39%);
 }
-body{
-    background-color: rgb(16, 16, 29)
-}
 .main1{
     background-color: rgb(26, 26, 44);
 }
