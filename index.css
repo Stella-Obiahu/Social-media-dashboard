@@ -74,6 +74,9 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+.cap{
+    font-size: 10px;
+}
 .tin{
     margin-top: inherit;
     height: 6px;
