@@ -10,6 +10,7 @@
     --top-bg:hsl(232, 19%, 15%);
     --bg:hsl(230, 17%, 14%);
     --text:hsl(228, 34%, 66%);
+    --text1:hsl(0, 0%, 100%);
 }
 body{
     background: var(--bg);
@@ -63,7 +64,15 @@ body{
     color: var(--text);
 }
 .white{
-    color: white;
+    color: var(--text1)
+}
+.yes{
+    font-size: 40px;
+    font-weight: bold;
+}
+.yes1{
+    font-size: 20px;
+    font-weight: bold;
 }
 .tin{
     margin-top: inherit;
