@@ -77,4 +77,20 @@ body{
     .tin{
         margin-top: initial;
     }
+    .them{
+        height: 50vh;
+        padding: 40px 25px;
+        bottom: -200px;
+    }
+    .main11{
+        padding-bottom: 10px;
+    }
+    .main2{
+        padding-top: 750px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .pad{
+        padding-top: 1em;
+    }
 }
