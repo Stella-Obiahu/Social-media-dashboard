@@ -99,6 +99,9 @@ body{
     border-radius: 2px;
 }
 @media screen and (max-width: 600px){
+    .overview{
+        margin-top: 1.5em !important;
+    }
     .card{
         margin-top: 2em;
     }
