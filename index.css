@@ -11,12 +11,19 @@
     --bg:hsl(230, 17%, 14%);
     --text:hsl(228, 34%, 66%);
     --text1:hsl(0, 0%, 100%);
+    --text2:hsl(0, 3%, 7%);
 }
 body{
+    /* background: var(--bg); */
+}
+.danny1{
     background: var(--bg);
 }
-.main1{
+.main_1{
     background: var(--top-bg);
+}
+.main1{
+    
     width: 100%;
     position: relative;
     padding-top: 40px ;
@@ -34,7 +41,7 @@ body{
     transform: translateX(-50%);
 }
 .main2{
-    background: var(--bg);
+    /* background: var(--bg); */
     padding-top: 170px;
     padding-bottom: 50px;
 }
@@ -65,6 +72,9 @@ body{
 }
 .color{
     color: var(--text);
+}
+.black{
+    color: var(--text2)
 }
 .white{
     color: var(--text1)
