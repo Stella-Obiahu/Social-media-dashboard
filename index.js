@@ -4,15 +4,27 @@
 // function callMe2(){
 //     location.replace("http://127.0.0.1:5500/index.html")
 // }
+// function changeBackground(color) {
+//   document.getElementById("name1").style.background = color;
+// }
+// window.addEventListener("load",function() { changeBackground('') });
 
-
-
+var flement = document.getElementById("name1");
+flement.classList.add("main_11");
+var weyy = document.querySelectorAll(".wey");
+for (var i = 0; i < weyy.length; i++) {
+  // Add the class margin to the individual elements.
+  weyy[i].classList.remove('white');
+  weyy[i].classList.add('wey');
+}
+var ovv = document.getElementById("overview");
+ovv.classList.add("wey");
 var mere = document.querySelectorAll(".card");
 for (var i = 0; i < mere.length; i++) {
     // Add the class margin to the individual elements.
     mere[i].classList.add('card2');
   }
-
+  
 function callMe() {
     debugger
     var element = document.getElementById("name1");

@@ -33,7 +33,7 @@
     font-size: 12px;
 }
 .toggle1{
-    background:linear-gradient(to right,var(--toggle-dark1),var(--toggle-dark2));
+    color:linear-gradient(to right,var(--toggle-dark1),var(--toggle-dark2));
 }
 .toggle{
     background: var(--toggle);
