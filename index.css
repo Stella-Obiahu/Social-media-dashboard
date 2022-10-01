@@ -18,9 +18,23 @@
     --text11:hsl(228, 12%, 44%);
     --text12:hsl(230, 17%, 14%);
     --toggle:hsl(230, 22%, 74%);
+    --toggle-dark1:hsl(210, 78%, 56%);
+    --toggle-dark2:hsl(146, 68%, 55%);
 }
-body{
-    /* background: var(--bg); */
+/* body{
+    background: var(--bg); 
+} */
+.toggle1{
+    background:linear-gradient(to right,var(--toggle-dark1),var(--toggle-dark2));
+}
+.toggle{
+    background: var(--toggle);
+}
+.main_11{
+    background: var(--top2-bg);
+}
+.wey{
+    color: var(--text);
 }
 .danny1{
     background: var(--bg);
