@@ -12,6 +12,7 @@ for (var i = 0; i < mere.length; i++) {
     // Add the class margin to the individual elements.
     mere[i].classList.add('card2');
   }
+
 function callMe() {
     debugger
     var element = document.getElementById("name1");
@@ -32,6 +33,7 @@ function callMe() {
             forwhite.classList.add("black");
             ov.classList.remove("white");
             ov.classList.add("wey");
+
             for (var i = 0; i < cards.length; i++) {
                 // Add the class margin to the individual elements.
                 cards[i].classList.remove('card1');
@@ -47,7 +49,6 @@ function callMe() {
                 wey[i].classList.remove('white');
                 wey[i].classList.add('wey');
               }
-            // inputs[i].checked = true; 
         }
         else {
             if(inputs[i].checked == true) {
@@ -69,7 +70,6 @@ function callMe() {
                     // Add the class margin to the individual elements.
                     wey[i].classList.add('wey');
                   }
-                // inputs[i].checked = false; 
              }   
         }
     } 

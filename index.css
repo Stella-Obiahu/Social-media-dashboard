@@ -24,6 +24,14 @@
 /* body{
     background: var(--bg); 
 } */
+.green{
+    color: var(--Lime-Green);
+    font-size: 12px;
+}
+.red{
+    color: var(--Bright-Red);
+    font-size: 12px;
+}
 .toggle1{
     background:linear-gradient(to right,var(--toggle-dark1),var(--toggle-dark2));
 }
@@ -108,7 +116,7 @@
     font-weight: bold;
 }
 .yes1{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
 }
 .cap{
