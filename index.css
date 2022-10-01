@@ -75,11 +75,20 @@
 }
 .card2{
     background: var(--card2-bg);
-    cursor: pointer;
+    cursor: pointer; 
+}
+.card2 :hover{
+    background: var(--toggle);
 }
 .card1{
     background: var(--card-bg);
     cursor: pointer;
+}
+.card1 :hover{
+    background: var(--toggle);
+}
+.tine :hover{
+    background: var(--toggle);
 }
 .stella{
     background-color: var(--Lime-Green);
