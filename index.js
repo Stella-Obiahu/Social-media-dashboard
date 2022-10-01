@@ -22,7 +22,6 @@ function callMe() {
     var cards = document.querySelectorAll(".card");
     var whiite = document.querySelectorAll(".whiite");
     var wey = document.querySelectorAll(".wey");
-    var pink = document.getElementsByClassName("pink")
     for(var i = 0; i < inputs.length; i++) {
         if(inputs[i].checked == false) {
             debugger
@@ -33,7 +32,6 @@ function callMe() {
             forwhite.classList.add("black");
             ov.classList.remove("white");
             ov.classList.add("wey");
-            pink.classList.add("toggle1");
             for (var i = 0; i < cards.length; i++) {
                 // Add the class margin to the individual elements.
                 cards[i].classList.remove('card1');
